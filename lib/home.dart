@@ -6,13 +6,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 42, 229, 129),
-        title: const Text("Autonomidia Flutter App"),
-        centerTitle: true,
-      ),
-      body: const VideoPlayerWidget(),
+    return const Scaffold(
+      body: VideoPlayerWidget(),
     );
   }
 }
