@@ -1,13 +1,26 @@
-import 'package:autonomidia_player/video_player.dart';
+import 'package:autonomidia_player/video_service.dart';
+import 'package:autonomidia_player/video_wrapper.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  void initState() {
+    super.initState();
+
+    VideoService.updateVideoPlaylist();
+  }
 
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: VideoPlayerWidget(),
+      body: VideoWrapperWidget(),
     );
   }
 }
