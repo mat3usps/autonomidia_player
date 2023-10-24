@@ -1,4 +1,4 @@
-import 'package:autonomidia_player/home.dart';
+import 'package:modbox_player/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -1,6 +1,6 @@
 {
-    "name": "autonomidia_player",
-    "short_name": "autonomidia_player",
+    "name": "modbox_player",
+    "short_name": "modbox_player",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

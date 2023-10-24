@@ -1,5 +1,5 @@
-import 'package:autonomidia_player/video_service.dart';
-import 'package:autonomidia_player/video_wrapper.dart';
+import 'package:modbox_player/video_service.dart';
+import 'package:modbox_player/video_wrapper.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

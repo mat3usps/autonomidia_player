@@ -1,4 +1,4 @@
-package com.example.autonomidia_player
+package com.example.modbox_player
 
 import io.flutter.embedding.android.FlutterActivity
 

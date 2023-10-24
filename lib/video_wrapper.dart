@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'util.dart';
 import 'package:flutter/material.dart';
-import 'package:autonomidia_player/video_player.dart';
+import 'package:modbox_player/video_player.dart';
 
 class VideoWrapperWidget extends StatefulWidget {
   const VideoWrapperWidget({super.key});

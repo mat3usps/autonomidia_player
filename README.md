@@ -1,4 +1,4 @@
-# autonomidia_player
+# modbox_player
 
 A new Flutter project.
 
